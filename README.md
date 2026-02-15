@@ -1,21 +1,21 @@
-# Spring Boot Demo 🚀
+# 🏥 API de Pacientes – Spring Boot
 
-Proyecto realizado como parte del **Challenge Alura** para practicar Spring Boot.
+Proyecto realizado como parte del Challenge Alura.
+
+## 🚀 Funcionalidades
+
+✔ Listar pacientes  
+✔ Crear pacientes  
+✔ Eliminación lógica (activo = false)
 
 ## 🛠 Tecnologías utilizadas
+
 - Java 17
 - Spring Boot
 - Maven
 - IntelliJ IDEA
 
-## ▶️ Cómo ejecutar el proyecto
-1. Ejecutar la clase `DemoApplication`
-2. Abrir el navegador en:
-   http://localhost:8080
+## ▶ Cómo ejecutar
 
-## ✅ Resultado
-Se muestra el mensaje:
-Hola Romina, Spring Boot está funcionando 🚀
-
----
-Proyecto realizado por **Romina Sarmiento**
+1. Ejecutar DemoApplication  
+2. Abrir navegador en http://localhost:8080/pacientes
