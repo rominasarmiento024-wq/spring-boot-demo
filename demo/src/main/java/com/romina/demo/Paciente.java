@@ -13,8 +13,10 @@ public class Paciente {
     private String email;
     private String telefono;
     private String documento;
+    private Boolean activo;
 
     public Paciente() {
+        this.activo = true; // ← CLAVE para el challenge
     }
 
     public Long getId() {
@@ -51,5 +53,13 @@ public class Paciente {
 
     public void setDocumento(String documento) {
         this.documento = documento;
+    }
+
+    public Boolean getActivo() {
+        return activo;
+    }
+
+    public void setActivo(Boolean activo) {
+        this.activo = activo;
     }
 }

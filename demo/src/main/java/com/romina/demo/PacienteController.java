@@ -30,6 +30,12 @@ public class PacienteController {
 
     @DeleteMapping("/{id}")
     public void eliminarPaciente(@PathVariable Long id) {
-        pacienteRepository.deleteById(id);
+
+        Paciente paciente = pacienteRepository.findById(id).orElse(null);
+
+        if (paciente != null) {
+            paciente.setActivo(false);
+            pacienteRepository.save(paciente);
+        }
     }
-}
+    }
